@@ -1,8 +1,3 @@
-import {
-  IconBrandFacebook,
-  IconBrandGithub,
-  IconBrandInstagram,
-} from "@tabler/icons-react";
 import Link from "next/link";
 
 const Header = () => {

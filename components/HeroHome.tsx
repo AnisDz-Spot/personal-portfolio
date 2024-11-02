@@ -44,24 +44,24 @@ const HeroHome = () => {
               </div>
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
-                <span className="text-gray-400">'</span>
+                <span className="text-gray-400">&apos;</span>
                 <span className="text-amber-300">Anis Dzed</span>
-                <span className="text-gray-400">',</span>
+                <span className="text-gray-400">&apos;,</span>
               </div>
               <div className="ml-4 lg:ml-8 mr-2">
                 <span className="text-white">skills:</span>
                 <span className="text-gray-400">[</span>
-                <span className="text-amber-300">'React'</span>
+                <span className="text-amber-300">&apos;React&apos;</span>
                 <span className="text-gray-400">, </span>
-                <span className="text-amber-300">'Redux'</span>
+                <span className="text-amber-300">&apos;Redux&apos;</span>
                 <span className="text-gray-400">, </span>
-                <span className="text-amber-300">'Express'</span>
+                <span className="text-amber-300">&apos;Express&apos;</span>
                 <span className="text-gray-400">, </span>
-                <span className="text-amber-300">'NextJS'</span>
+                <span className="text-amber-300">&apos;NextJS&apos;</span>
                 <span className="text-gray-400">, </span>
-                <span className="text-amber-300">'MySql'</span>
+                <span className="text-amber-300">&apos;MySql&apos;</span>
                 <span className="text-gray-400">, </span>
-                <span className="text-amber-300">'MongoDB'</span>
+                <span className="text-amber-300">&apos;MongoDB&apos;</span>
                 <span className="text-gray-400">]</span>
               </div>
               <div>
