@@ -11,8 +11,8 @@ const HeroHome = () => {
         <div className="relative w-1/2 py-5 flex flex-col justify-center gap-10 text-white text-[2.5rem] font-bold leading-relaxed">
           <div>
             Hello,
-            <br /> This is <span className="text-pink-500">ANIS DZED, </span>I'm
-            a
+            <br /> This is <span className="text-pink-500">ANIS DZED, </span>
+            I&apos;m a
             <br />
             Professional
             <br />

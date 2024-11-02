@@ -1,11 +1,11 @@
-import { useAnimation } from "framer-motion";
+// import { useAnimation } from "framer-motion";
 // import { useEffect, useRef } from "react";
 import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
 
-type Skill = {
-  name: string;
-  level: number;
-};
+// type Skill = {
+//   name: string;
+//   level: number;
+// };
 
 type Testimonials = {
   title: string;

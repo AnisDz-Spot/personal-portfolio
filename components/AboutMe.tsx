@@ -42,9 +42,9 @@ const AboutMe = () => {
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.3 }}
           >
-            Over the years, I've been fortunate to work with diverse clients,
-            building websites that not only look good but are optimized for
-            performance and accessibility. My primary focus now is creating
+            Over the years, I&apos;ve been fortunate to work with diverse
+            clients, building websites that not only look good but are optimized
+            for performance and accessibility. My primary focus now is creating
             dynamic, high-quality sites and digital experiences that stand out
             on the <span className="text-[#60a5fa]">internet</span>, while
             continuously expanding my skill set.
@@ -56,9 +56,10 @@ const AboutMe = () => {
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.5 }}
           >
-            Recently, I've been diving deeper into modern web technologies,
+            Recently, I&apos;ve been diving deeper into modern web technologies,
             including <span className="text-[#60a5fa]">Next.js</span>, to push
-            the boundaries of what's possible with web design and functionality.
+            the boundaries of what&apos;s possible with web design and
+            functionality.
           </motion.p>
         </div>
       </div>
