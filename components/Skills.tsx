@@ -125,7 +125,7 @@ const SkillChart = () => {
           <span className="inline-block w-1/6 h-1 rounded-full bg-blue-400 ml-5"></span>
         </h2>
       </div>
-      <InfiniteMovingCards items={testimonials} speed="normal" />
+      <InfiniteMovingCards items={testimonials} speed="slow" />
       {/* <div ref={ref} className="w-full flex flex-wrap justify-around mt-16">
         {skills.map((skill, index) => (
           <motion.div
