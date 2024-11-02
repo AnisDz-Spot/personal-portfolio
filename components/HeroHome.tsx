@@ -16,7 +16,7 @@ const HeroHome = () => {
             <br />
             Professional
             <br />
-            <Highlight className="w-fit">Software Developer.</Highlight>
+            <Highlight className="w-fit">Web Developer.</Highlight>
           </div>
           <Link href="#" className="uppercase cursor-pointer z-50">
             <MagicButton />
