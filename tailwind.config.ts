@@ -19,20 +19,27 @@ const config: Config = {
       },
       fontFamily: {
         audiowide: ['Audiowide', 'sans-serif'],
-    },
-    animation: {
+      },
+      animation: {
       shimmer: "shimmer 2s linear infinite",
-    },
-    keyframes: {
-      shimmer: {
-        from: {
-          backgroundPosition: "0 0",
+      scroll: "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+      },
+      keyframes: {
+        shimmer: {
+          from: {
+            backgroundPosition: "0 0",
+          },
+          to: {
+            backgroundPosition: "-200% 0",
+          },
         },
-        to: {
-          backgroundPosition: "-200% 0",
+        scroll: {
+          to: {
+            transform: "translate(calc(-50% - 0.5rem))",
+          },
         },
       },
-    },
+
     },
   },
   plugins: [addVariablesForColors],

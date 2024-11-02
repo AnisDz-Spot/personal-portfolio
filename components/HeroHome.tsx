@@ -7,7 +7,7 @@ const HeroHome = () => {
   return (
     <section className="w-full h-screen flex items-center flex-col px-4">
       <Header />
-      <div className="flex w-full min-h-[50vh] px-[8vw]">
+      <div className="flex w-full min-h-[50vh]">
         <div className="relative w-1/2 py-5 flex flex-col justify-center gap-10 text-white text-[2.5rem] font-bold leading-relaxed">
           <div>
             Hello,

@@ -24,7 +24,7 @@ const Header = () => {
     },
   ];
   return (
-    <div className="w-full flex justify-between items-center py-8 px-[8vw] z-50">
+    <div className="w-full flex justify-between items-center py-8 z-50">
       <Link
         href="/"
         className="font-audiowide min-w-[20vw] uppercase text-white text-3xl font-bold tracking-wider cursor-pointer"
