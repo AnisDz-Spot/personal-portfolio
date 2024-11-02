@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Header from "./ui/Header";
-import { Highlight } from "./ui/hero-highlight";
 import { MagicButton } from "./ui/MagicButton";
+import { Highlight } from "./ui/hero-highlight";
 
 const HeroHome = () => {
   return (
