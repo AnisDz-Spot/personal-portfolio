@@ -33,7 +33,7 @@ const Portfolio = () => {
     },
     {
       title: "Parapharmacie RP",
-      descr: "Affordable Furniture Solutions for Every Home.",
+      descr: "Trusted pharmacy offering convenient health solutions.",
       href: "https://parapharmacie-prd.com",
       imgSrc: "/images/projects/pdrp.webp",
     },
@@ -41,7 +41,7 @@ const Portfolio = () => {
 
   return (
     <section className="min-h-[90vh] mt-32 flex flex-col gap-20">
-      <div id="projects" className="relative w-full flex flex-col gap-3">
+      <div id="projects" className="relative w-full flex flex-col gap-3 mb-14">
         <h2 className="absolute -top-16 left-0 text-stroke text-[7rem] z-0">
           My Works
         </h2>

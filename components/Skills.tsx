@@ -115,7 +115,10 @@ const SkillChart = () => {
 
   return (
     <>
-      <div id="skills" className="relative w-full flex flex-col gap-3 mt-32">
+      <div
+        id="skills"
+        className="relative w-full flex flex-col gap-3 mt-32 mb-16"
+      >
         <h2 className="absolute -top-16 left-0 text-stroke text-[7rem] z-0">
           My Skills
         </h2>
