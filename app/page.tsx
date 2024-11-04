@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import AboutMe from "@/components/AboutMe";
 import HeroHome from "@/components/HeroHome";
 import Skills from "@/components/Skills";
+import Portfolio from "@/components/Portfolio";
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
@@ -16,11 +17,12 @@ export default function Home() {
   }, []);
 
   return (
-    <section className="w-screen bg-black flex flex-col items-center gap-5 px-[5vw]">
+    <section className="w-screen bg-black flex flex-col items-center px-[5vw]">
       {loading && <Loading />}
       <HeroHome />
       <AboutMe />
       <Skills />
+      <Portfolio />
     </section>
   );
 }

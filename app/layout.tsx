@@ -70,7 +70,7 @@ export default function RootLayout({
         className={`${inter.variable} relative flex flex-col items-center overflow-x-hidden antialiased`}
       >
         {children}
-        <BackgroundBeams className="fixed top-0 left-0" />
+        <BackgroundBeams className="fixed top-0 left-0 min-h-screen" />
         <FloatingDock
           items={links}
           desktopClassName="fixed bottom-4 bg-[#171717] z-40"
